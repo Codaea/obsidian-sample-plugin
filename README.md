@@ -1,16 +1,14 @@
-# Obsidian Sample Plugin
+# Lecture Copilot
 
-This is a sample plugin for Obsidian (https://obsidian.md).
+A MVP workflow for Recording, transcribing, and supplementing lecture notes
 
-This project uses TypeScript to provide type checking and documentation.
-The repo depends on the latest plugin API (obsidian.d.ts) in TypeScript Definition format, which contains TSDoc comments describing what it does.
+Problem: I can't take notes fast enough sometimes and miss key lecture moments during class
 
-This sample plugin demonstrates some of the basic functionality the plugin API can do.
-- Adds a ribbon icon, which shows a Notice when clicked.
-- Adds a command "Open Sample Modal" which opens a Modal.
-- Adds a plugin setting tab to the settings page.
-- Registers a global click event and output 'click' to the console.
-- Registers a global interval which logs 'setInterval' to the console.
+Solution: Ask classmate next to me, study groups
+
+Gamer Solution: Build a tool that listens and transcribes the lectures
+
+
 
 ## First time developing plugins?
 

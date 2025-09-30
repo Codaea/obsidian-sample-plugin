@@ -181,12 +181,12 @@ export default class MyPlugin extends Plugin {
 ```ts
 export interface MySettings {
   enabled: boolean;
-  apiKey: string;
+  AssemblyAPIKey: string;
 }
 
 export const DEFAULT_SETTINGS: MySettings = {
   enabled: true,
-  apiKey: "",
+  AssemblyAPIKey: "",
 };
 ```
 
